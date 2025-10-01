@@ -4,7 +4,7 @@ dg-home: true
 ---
 # Reaction
 
-![[reaction_banner.png|]]
+![[reaction_banner.png]]
 
 **Reaction** es un plugin para el motor gráfico  Godot 4.x que implementa  el  [Sistema de respuesta de Valve](https://developer.valvesoftware.com/wiki/Response_System) usados en el juego **Left 4 Dead**.  El sistema ha sido implementado por otros desarrolladores como **Naughty Dog** en en el videojuego **Last Of Us** y por los desarrolladores **Campo Santo** en **Firewatch**. 
 
