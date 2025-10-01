@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+# Reaction
 
 ![[icon_version_2.png]]
 
@@ -40,7 +44,7 @@ By chance, thanks to the internet, we found a [GDC talk by Valve](https://www.yo
 > One of the common aplication for **Reaction** could be as a dialogue manager but could be 
 >  used as a heavy conditional resource return pattern
 
-Generally speaking, it works by using a "data store" or **blackboard** that contains the current state of the game or level (like a dictionary or hash table), which is the single source of truth for **Reaction**. When a component triggers a **Reaction** event, it will check all the **rules** defined for that event. Each rule has different **criteria** defined (the criteria are conditions that must be met in the **blackboard**). The first rule that meets all its conditions will be the one that returns its associated **responses** or resources. 
+Generally speaking, it works by using a "data store" or **blackboard** that contains the current state of the game or level (like a dictionary or hash table), which is the *"single source of truth"* for **Reaction**. When a component triggers a **Reaction** event, it will check all the **rules** defined for that event. Each rule has different **criteria** defined (the criteria are conditions that must be met in the **blackboard**). The first rule that meets all its conditions will be the one that returns its associated **responses** or resources. 
 
 For more details, see [[How Reaction works]].
 
